@@ -84,7 +84,7 @@ under the License.
 			<groupId>org.apache.calcite.avatica</groupId>
 			<artifactId>avatica-core</artifactId>
 			<!-- When updating the Calcite version, make sure to update the version and dependency exclusions -->
-			<version>1.17.0</version>
+			<version>1.22.0</version>
 			<exclusions>
 				<!--
 
