@@ -35,7 +35,7 @@ under the License.
 	<properties>
 		<httpclient.version>4.5.9</httpclient.version>
 		<httpcore.version>4.4.11</httpcore.version>
-		<aws.sdk.version>1.11.754</aws.sdk.version>
+		<aws.sdk.version>1.12.305</aws.sdk.version>
 		<aws.sdkv2.version>2.15.32</aws.sdkv2.version>
 		<reactivestreams.version>1.0.2</reactivestreams.version>
 		<lz4.version>1.6.0</lz4.version>
@@ -242,8 +242,7 @@ under the License.
 							<shadedArtifactAttached>false</shadedArtifactAttached>
 							<createDependencyReducedPom>false</createDependencyReducedPom>
 							<transformers>
-								<transformer
-									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
 									<mainClass>org.apache.flink.glue.schema.registry.test.GlueSchemaRegistryExample
 									</mainClass>
 								</transformer>
