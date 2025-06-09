@@ -33,7 +33,7 @@ under the License.
 	<packaging>jar</packaging>
 
 	<properties>
-		<glue.schema.registry.version>1.0.1</glue.schema.registry.version>
+		<glue.schema.registry.version>1.0.2</glue.schema.registry.version>
 		<aws.sdkv2.version>2.15.32</aws.sdkv2.version>
 		<reactivestreams.version>1.0.2</reactivestreams.version>
 		<lz4.version>1.6.0</lz4.version>
